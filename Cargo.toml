@@ -1,0 +1,12 @@
+[package]
+name = "rustlike"
+version = "0.1.0"
+authors = ["OhmRee <omrisim@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bevy = { version = "0.2.1", default-features = false }
+bevy_core = "0.2.1"
+bevy_diagnostic = "0.2.1"
+bevy_type_registry = "0.2.1"
+tcod = "0.15.0"
